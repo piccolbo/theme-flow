@@ -52,6 +52,7 @@
   font-weight: 300;
   font-family: sans-serif;
 }
+
 .justified-gallery > a > .caption.caption-visible,
 .justified-gallery > div > .caption.caption-visible,
 .justified-gallery > figure > .caption.caption-visible {
@@ -63,6 +64,7 @@
   -o-transition: opacity 500ms ease-in;
   transition: opacity 500ms ease-in;
 }
+
 .justified-gallery > .entry-visible {
   filter: "alpha(opacity=100)";
   opacity: 1;

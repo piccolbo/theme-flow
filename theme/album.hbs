@@ -35,20 +35,24 @@
       $(document).ready(function() {
         $("#media").lightGallery({
           thumbWidth: 80,
-          controls: true,
+          thumbnail: false,
+          controls: false,
           loop : false,
           download: true,
-          counter: true,
+          counter: false,
           videojs: true,
           exThumbImage: 'data-exthumbimage',
+          slideEndAnimation: false,
+          hideBarsDelay: 30,
+          progressBar: false
         });
 
         // Init justified gallery for albums
         $("#albums").justifiedGallery({
           {{!-- selector: '.albumList', --}}
           margins: 10,
-          rowHeight: 300,
-          maxRowHeight: 325,
+          rowHeight: 250,
+          maxRowHeight: 275,
         });
 
         // Init justified gallery for photos
